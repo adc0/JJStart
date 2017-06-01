@@ -111,10 +111,10 @@
     去掉了托盘图标右键菜单
     
     0.8(20170602)
-    1、去掉SharpZipLib
-    2、精简JJPlugin和主程序代码
-    3、插件栏菜单“添加插件”更改为“刷新”
-    4、增加“FileCut”、“FileEncrypt”和“FileHash”三个插件
+    去掉SharpZipLib
+    精简JJPlugin和主程序代码
+    插件栏菜单“添加插件”更改为“刷新”
+    增加“FileCut”、“FileEncrypt”和“FileHash”三个插件
       
 三、使用方法
     运行前安装“net3.5”运行库，然后猛戳之
