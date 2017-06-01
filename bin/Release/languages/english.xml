@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<JJStart>
+    <Native-Langue name="English" lcid="0x0409" version="0.7">
+		<!--- MainForm -->
+		<Form name="MainForm" text="JJStart">	
+		    <!--- buttonX1 -->
+			<Control name="btnIRun" text="Run" />
+			<Control name="btnISearch" text="Search" />
+			<Control name="btnIBaidu" text="Baidu" />
+			<Control name="btnIGoogle" text="Google" />
+			
+			<!--- buttonItem1 -->
+			<Control name="btnIAddFile" text="Add file" />
+			<Control name="btnIAddDir" text="Add directory" />
+			<Control name="btnINewCate" text="New category" />
+			<Control name="btnINewItem" text="New item" />
+			<Control name="btnIView" text="View" />
+			<Control name="btnILargeIcons" text="Large icons" />
+			<Control name="btnISmallIcons" text="Small icons" />
+			<Control name="btnIMultiColumn" text="Multi column" />
+			<Control name="btnIPaste" text="Paste" />
+			<Control name="btnIClearItem" text="Clear item" />
+			<Control name="btnIDeleteItem" text="Delete item" />
+			<Control name="btnIDeleteCate" text="Delete category" />
+			
+			<!--- buttonItem2 -->
+			<Control name="btnIOpen" text="Open(&amp;O)" />
+			<Control name="btnIRunasAdmin" text="Run as administrator(&amp;A)" />
+			<Control name="btnIDelete" text="Delete" />
+			<Control name="btnICut" text="Cut" />
+			<Control name="btnICopy" text="Copy" />
+			<Control name="btnIAddToMainPanel" text="Add to main panel" />
+			<Control name="btnISetHotKey" text="Set hotkey..." />
+			<Control name="btnICreateShortcut" text="Create shortcut" />
+			<Control name="btnIRename" text="Rename" />
+			<Control name="btnIExplore" text="Open file location" />
+			<Control name="btnIProperties" text="Properties" />
+			
+			<!--- buttonItem3 -->
+			<Control name="btnIRefreshPlugin" text="Refresh" />
+			
+			<!--- buttonItem4 -->
+			<Control name="btnIMSBOpen" text="Open" />
+			<Control name="btnIMSBRemove" text="Remove" />
+			
+			<!--- btnIMenu -->
+			<Control name="btnIMenuCheckUpdate" text="Check update" />
+			<Control name="btnIMenuExit" text="Exit" />
+			
+			<!--- metroStatusBar1 -->
+			<Control name="btnIMenu" tooltip="Menu" />
+			<Control name="btnISettings" tooltip="System settings" />
+			<Control name="btnIJJStartOrg" tooltip="jjstart.org" />
+			
+			<!--- contextMenuStrip3 -->
+			<Control name="tsmibtnNtfyOpen" text="Open" />
+			<Control name="tsmibtnNtfyAbout" text="About" />
+			<Control name="tsmibtnNtfyExit" text="Exit" />
+			
+			<!--- string -->
+			<String name="1" text="Default" />
+			<String name="2" text="The category has been used by program itself, user can not create!" />
+			<String name="3" text="The category has been exsited, please enter again!" />
+			<String name="4" text="Search result" />
+			<String name="5" text="The item has been used by program itself, user can not create!" />
+			<String name="6" text="The item has been exsited, please enter again!" />
+			<String name="7" text="New item 1" />
+			<String name="8" text="Settings saved successfully." />
+			<String name="9" text="Settings saved failed." />
+			<String name="10" text="All" />
+			<String name="11" text="New item" />
+			<String name="12" text="Please enter new category name:" />
+			<String name="13" text="Please enter new item name:" />
+			<String name="14" text="Are you sure to clear the item?" />
+			<String name="15" text="Are you sure to delete the item?" />
+			<String name="16" text="At least you need to retain a category!" />
+			<String name="17" text="Are you sure to delete the cateory?" />
+			<String name="18" text="Are you sure to delete the shortcut?" />
+			<String name="19" text="Are you sure to delete these shortcuts?" />
+        </Form>
+		
+		<!--- InputForm -->
+		<Form name="InputForm" text="">
+			<Control name="btnOK" text="OK" />
+			<Control name="btnCancel" text="Cancel" />
+        </Form>
+		
+		<!--- SetHotKeyForm -->
+		<Form name="SetHotKeyForm" text="Set Hotkey">
+			<Control name="label1" text="HKey:" />
+			<Control name="label2" text="Name:" />
+			<Control name="label3" text="Path:" />
+			<Control name="btnOK" text="OK" />
+			<Control name="btnCancel" text="Cancel" />
+			
+			<!--- string -->
+			<String name="1" text="Unregister hotkey {0} failed!" />
+			<String name="2" text="Register hotkey {0} failed!" />
+        </Form>
+		
+		<!--- SettingsForm -->
+		<Form name="SettingsForm"  text="Settings">
+			<Control name="label1" text="Language:" />
+			<Control name="label2" text="Show/Hide:" />
+			<Control name="chkLoadPlugin" text="Load plugins" />
+			<Control name="chkDblClickRun" text="Double click run" />
+			<Control name="chkAutoRun" text="Auto start JJStart" />
+			<Control name="chkLinkDragRemove" text="Remove mode for link file" />
+			<Control name="chkTopMost" text="Topmost" />
+			<Control name="btnOK" text="OK" />
+			<Control name="btnCancel" text="Cancel" />
+        </Form>
+    </Native-Langue>
+</JJStart>

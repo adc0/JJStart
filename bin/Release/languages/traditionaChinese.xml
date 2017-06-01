@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="big5" ?>
+<JJStart>
+    <Native-Langue name="繁體中文" lcid="0x0404" version="0.7">
+		<!--- MainForm -->
+		<Form name="MainForm" text="JJStart">	
+			<!--- buttonX1 -->
+			<Control name="btnIRun" text="運行" />
+			<Control name="btnISearch" text="搜索" />
+			<Control name="btnIBaidu" text="百度" />
+			<Control name="btnIGoogle" text="谷歌" />
+			
+			<!--- buttonItem1 -->
+			<Control name="btnIAddFile" text="添加文件" />
+			<Control name="btnIAddDir" text="添加目錄" />
+			<Control name="btnINewCate" text="新建類別" />
+			<Control name="btnINewItem" text="新建欄目" />
+			<Control name="btnIView" text="查看" />
+			<Control name="btnILargeIcons" text="大圖標" />
+			<Control name="btnISmallIcons" text="小圖標" />
+			<Control name="btnIMultiColumn" text="允許橫排" />
+			<Control name="btnIPaste" text="黏貼" />
+			<Control name="btnIClearItem" text="清空本欄目" />
+			<Control name="btnIDeleteItem" text="刪除本欄目" />
+			<Control name="btnIDeleteCate" text="刪除本類別" />
+			
+			<!--- buttonItem2 -->
+			<Control name="btnIOpen" text="打開(&amp;O)" />
+			<Control name="btnIRunasAdmin" text="以管理員權限運行(&amp;A)" />
+			<Control name="btnIDelete" text="刪除" />
+			<Control name="btnICut" text="剪切" />
+			<Control name="btnICopy" text="復制" />
+			<Control name="btnISetHotKey" text="設置熱鍵..." />
+			<Control name="btnICreateShortcut" text="生成快捷方式到桌面" />
+			<Control name="btnIRename" text="重命名" />
+			<Control name="btnIExplore" text="瀏覽文件/目錄..." />
+			<Control name="btnIProperties" text="屬性" />
+			
+			<!--- buttonItem3 -->
+			<Control name="btnIRefreshPlugin" text="刷新" />
+			
+			<!--- buttonItem4 -->
+			<Control name="btnIMSBOpen" text="打開" />
+			<Control name="btnIMSBRemove" text="移除" />
+			
+			<!--- btnIMenu -->
+			<Control name="btnIMenuCheckUpdate" text="檢測升級" />
+			<Control name="btnIMenuExit" text="退出" />
+			
+			<!--- metroStatusBar1 -->
+			<Control name="btnIMenu" tooltip="主菜單" />
+			<Control name="btnISettings" tooltip="系統設置" />
+			<Control name="btnIJJStartOrg" tooltip="官網" />
+			
+			<!--- contextMenuStrip3 -->
+			<Control name="tsmibtnNtfyOpen" text="打開" />
+			<Control name="tsmibtnNtfyAbout" text="關于" />
+			<Control name="tsmibtnNtfyExit" text="退出" />
+			
+			<!--- string -->
+			<String name="1" text="默認" />
+			<String name="2" text="該類別名稱已被程序內部使用，用戶不能新建！" />
+			<String name="3" text="該類名已經存在，請重新輸入！" />
+			<String name="4" text="搜索結果" />
+			<String name="5" text="該欄目名稱已被程序內部使用，用戶不能新建！" />
+			<String name="6" text="該欄目已經存在，請重新輸入！" />
+			<String name="7" text="新建欄目一" />
+			<String name="8" text="配置信息保存成功。" />
+			<String name="9" text="配置信息保存失敗。" />
+			<String name="10" text="全部" />
+			<String name="11" text="新類別" />
+			<String name="12" text="請輸入新類別名稱：" />
+			<String name="13" text="請輸入新欄目名稱：" />
+			<String name="14" text="你確定要清空本欄目嗎？" />
+			<String name="15" text="你確定要刪除本欄目嗎？" />
+			<String name="16" text="至少需要保留一個類別！" />
+			<String name="17" text="你確定要刪除本類別嗎？" />
+			<String name="18" text="你確定要刪除這個快捷方式嗎？" />
+			<String name="19" text="你確定要刪除這些快捷方式嗎？" />
+        </Form>
+		
+		<!--- InputForm -->
+		<Form name="InputForm" text="">
+			<Control name="btnOK" text="確定" />
+			<Control name="btnCancel" text="取消" />
+        </Form>
+		
+		<!--- SetHotKeyForm -->
+		<Form name="SetHotKeyForm" text="設置熱鍵">
+			<Control name="label1" text="熱鍵:" />
+			<Control name="label2" text="路徑:" />
+			<Control name="label3" text="路徑:" />
+			<Control name="btnOK" text="確定" />
+			<Control name="btnCancel" text="取消" />
+			
+			<!--- string -->
+			<String name="1" text="注銷熱鍵 {0} 失敗！" />
+			<String name="2" text="設置熱鍵 {0} 失敗！" />
+        </Form>
+		
+		<!--- SettingsForm -->
+		<Form name="SettingsForm"  text="系統設置">
+			<Control name="label1" text="界面語言:" />
+			<Control name="label2" text="呼出/隱藏:" />
+			<Control name="chkLoadPlugin" text="加載插件" />
+			<Control name="chkDblClickRun" text="雙擊打開鏈接" />
+			<Control name="chkAutoRun" text="開機自動啟動JJStart" />
+			<Control name="chkLinkDragRemove" text="對快捷方式採用移動模式" />
+			<Control name="chkTopMost" text="始終置頂" />
+			<Control name="btnOK" text="確定" />
+			<Control name="btnCancel" text="取消" />
+        </Form>
+    </Native-Langue>
+</JJStart>
